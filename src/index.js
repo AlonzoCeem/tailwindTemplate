@@ -5,7 +5,7 @@ import { HashRouter} from 'react-router-dom';
 const App = ()=> {
   return (
     <>
-      <h1>Hello World!!</h1>
+      <h1 className='text-green-600'>Hello World!!</h1>
     </>
   );
 };

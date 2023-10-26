@@ -1,10 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { Link, HashRouter, Routes, Route } from 'react-router-dom';
-import Products from './Products';
-import Orders from './Orders';
-import Cart from './Cart';
-import Login from './Login';
+import { HashRouter} from 'react-router-dom';
 
 const App = ()=> {
   return (
